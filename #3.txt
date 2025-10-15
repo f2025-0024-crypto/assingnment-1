@@ -5,11 +5,11 @@ int main() {
     int firstNumber, secondNumber, thirdNumber;
     
     cout << "Enter three integers:\n" << endl;
-    cout << "First number: ";
+    cout << "1st number: ";
     cin >> firstNumber;
-    cout << "Second number: ";
+    cout << "2nd number: ";
     cin >> secondNumber;
-    cout << "Third number: ";
+    cout << "3rd number: ";
     cin >> thirdNumber;
     
     if (cin.fail()){
@@ -37,21 +37,21 @@ int main() {
         cout << "\nEquality Check:" << endl;
         
         if (firstNumber == secondNumber) {
-            cout << " First (" << firstNumber << ") and Second (" << secondNumber << ") are equal" << endl;
+            cout << " 1st (" << firstNumber << ") and 2nd (" << secondNumber << ") are equal" << endl;
         } else {
-            cout << " First (" << firstNumber << ") and Second (" << secondNumber << ") are NOT equal" << endl;
+            cout << " 1st (" << firstNumber << ") and 2nd (" << secondNumber << ") are NOT equal" << endl;
         }
         
         if (secondNumber == thirdNumber) {
-            cout << " Second (" << secondNumber << ") and Third (" << thirdNumber << ") are equal" << endl;
+            cout << " 2nd (" << secondNumber << ") and 3rd (" << thirdNumber << ") are equal" << endl;
         } else {
-            cout << " Second (" << secondNumber << ") and Third (" << thirdNumber << ") are NOT equal" << endl;
+            cout << " 2nd (" << secondNumber << ") and 3rd (" << thirdNumber << ") are NOT equal" << endl;
         }
         
         if (firstNumber == thirdNumber) {
-            cout << " First (" << firstNumber << ") and Third (" << thirdNumber << ") are equal" << endl;
+            cout << " 1st (" << firstNumber << ") and 3rd (" << thirdNumber << ") are equal" << endl;
         } else {
-            cout << " First (" << firstNumber << ") and Third (" << thirdNumber << ") are NOT equal" << endl;
+            cout << " 1st (" << firstNumber << ") and 3rd (" << thirdNumber << ") are NOT equal" << endl;
         }
     }
     
