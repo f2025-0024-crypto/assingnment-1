@@ -76,6 +76,5 @@ int main() {
     3. NO DECIMAL PLACES: Integer results don't have decimal places, so formatting with setprecision(3) 
        doesn't affect them.
     
-    4. POTENTIAL DATA LOSS: Large floating point numbers might lose significant digits when cast to int.
     */
 
