@@ -29,22 +29,22 @@ int main()
     cout << "Percentage: " << percentage << "%" << endl;
     
     if(percentage >= 90) {
-        cout << "Grade: A" << endl;
+        cout << "grade: A" << endl;
     }
     else if(percentage >= 80) {
-        cout << "Grade: B" << endl;
+        cout << "grade: B" << endl;
     }
     else if(percentage >= 70) {
-        cout << "Grade: C" << endl;
+        cout << "grade: C" << endl;
     }
     else if(percentage >= 60) {
-        cout << "Grade: D" << endl;
+        cout << "grade: D" << endl;
     }
     else if(percentage >= 50) {
-        cout << "Grade: E" << endl;
+        cout << "grade: E" << endl;
     }
     else {
-        cout << "Grade: Fail" << endl;
+        cout << "grade: Fail" << endl;
     }
     
     return 0;
